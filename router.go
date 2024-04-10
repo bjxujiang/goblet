@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/extrame/goblet/config"
-	ge "github.com/extrame/goblet/error"
+	"github.com/bjxujiang/goblet/config"
+	ge "github.com/bjxujiang/goblet/error"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

@@ -3,7 +3,7 @@ package plugin
 import (
 	"net/http"
 
-	"github.com/extrame/goblet"
+	"github.com/bjxujiang/goblet"
 )
 
 type User struct {

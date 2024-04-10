@@ -8,7 +8,7 @@ import (
 	"runtime/debug"
 
 	"github.com/extrame/go-random"
-	"github.com/extrame/goblet/config"
+	"github.com/bjxujiang/goblet/config"
 	"github.com/sirupsen/logrus"
 )
 

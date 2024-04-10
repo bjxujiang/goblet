@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/extrame/goblet/render"
+	"github.com/bjxujiang/goblet/render"
 	"github.com/sirupsen/logrus"
 )
 
@@ -178,7 +178,7 @@ func (c *Context) render() (err error) {
 					var in = rfnT.In(index)
 					if in.Kind() == reflect.Ptr {
 						ein := in.Elem()
-						if ein.Name() == "Context" && ein.PkgPath() == "github.com/extrame/goblet" {
+						if ein.Name() == "Context" && ein.PkgPath() == "github.com/bjxujiang/goblet" {
 							ctxIndex = index
 						}
 					} else {

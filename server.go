@@ -19,9 +19,9 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/extrame/goblet/config"
-	ge "github.com/extrame/goblet/error"
-	"github.com/extrame/goblet/render"
+	"github.com/bjxujiang/goblet/config"
+	ge "github.com/bjxujiang/goblet/error"
+	"github.com/bjxujiang/goblet/render"
 	yaml "gopkg.in/yaml.v3"
 )
 

@@ -1,7 +1,7 @@
 package plugin
 
 import (
-	"github.com/extrame/goblet"
+	"github.com/bjxujiang/goblet"
 )
 
 //_JSONPlugin JSONPlugin make server default respond data as data instead of as html.

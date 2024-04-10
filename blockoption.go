@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	ge "github.com/extrame/goblet/error"
+	ge "github.com/bjxujiang/goblet/error"
 	"github.com/sirupsen/logrus"
 )
 
@@ -525,7 +525,7 @@ func (s *Server) prepareOption(block interface{}) BlockOption {
 		for i := 0; i < valtype.NumField(); i++ {
 			t := valtype.Field(i)
 
-			if t.Type.PkgPath() != "github.com/extrame/goblet" {
+			if t.Type.PkgPath() != "github.com/bjxujiang/goblet" {
 				continue
 			}
 

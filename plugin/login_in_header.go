@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/extrame/goblet"
+	"github.com/bjxujiang/goblet"
 )
 
 var LoginInHead = new(_loginInHead)

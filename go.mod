@@ -1,4 +1,4 @@
-module github.com/extrame/goblet
+module github.com/bjxujiang/goblet
 
 go 1.15
 

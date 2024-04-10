@@ -15,8 +15,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/extrame/goblet/config"
-	ge "github.com/extrame/goblet/error"
+	"github.com/bjxujiang/goblet/config"
+	ge "github.com/bjxujiang/goblet/error"
 	"github.com/mvader/detect"
 	"github.com/sirupsen/logrus"
 )

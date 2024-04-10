@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	gorandom "github.com/extrame/go-random"
-	"github.com/extrame/goblet"
+	"github.com/bjxujiang/goblet"
 )
 
 const sessionName = "goblet-session-id"

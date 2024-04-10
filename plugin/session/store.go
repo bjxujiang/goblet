@@ -1,6 +1,6 @@
 package session
 
-import "github.com/extrame/goblet"
+import "github.com/bjxujiang/goblet"
 
 type sessionStore interface {
 	AddCfgAndInit(*goblet.Server) error

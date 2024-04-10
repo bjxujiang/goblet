@@ -3,8 +3,8 @@ package plugin
 import (
 	"regexp"
 
-	"github.com/extrame/goblet"
-	ge "github.com/extrame/goblet/error"
+	"github.com/bjxujiang/goblet"
+	ge "github.com/bjxujiang/goblet/error"
 )
 
 type PageRedirector struct {

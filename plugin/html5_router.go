@@ -3,8 +3,8 @@ package plugin
 import (
 	"path/filepath"
 
-	"github.com/extrame/goblet"
-	ge "github.com/extrame/goblet/error"
+	"github.com/bjxujiang/goblet"
+	ge "github.com/bjxujiang/goblet/error"
 )
 
 type Html5Router struct {

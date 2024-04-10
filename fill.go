@@ -189,7 +189,7 @@ func (d *MultiFormRequestDecoder) Unmarshal(cx *Context, v interface{}, autofill
 			return strings.Split(strings.TrimPrefix(path, prefix+"["), "]")[0]
 		},
 		FillForSpecifiledType: map[string]func(id string) (reflect.Value, error){
-			"github.com/extrame/goblet.File": func(id string) (reflect.Value, error) {
+			"github.com/bjxujiang/goblet.File": func(id string) (reflect.Value, error) {
 				var file File
 				var err error
 				var f multipart.File
